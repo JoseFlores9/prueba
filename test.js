@@ -20,7 +20,10 @@ const testGetImageMatrix = async () => {
   ]
   for (const imgPath of testImgPaths) {
     const matrix = await getImageMatrix(imgPath)
-    console.log(`image = "${imgPath}"\n\n${JSON.stringify(matrix)}\n\n`)
+    console.log(`\nimage = "${imgPath}"\n`)
+    matrix.map(row => {
+      console.log(JSON.stringify(row))
+    })
   }
 }
 
