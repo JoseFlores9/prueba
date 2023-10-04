@@ -10,7 +10,6 @@
   "author": "jose flores",
   "license": "ISC",
   "dependencies": {
-    "get-pixels": "^3.3.3",
     "jimp": "^0.22.10"
   }
 }
