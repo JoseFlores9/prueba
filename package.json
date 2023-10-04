@@ -1,0 +1,16 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "test for software engineer",
+  "main": "flores-jose.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "jose flores",
+  "license": "ISC",
+  "dependencies": {
+    "get-pixels": "^3.3.3",
+    "jimp": "^0.22.10"
+  }
+}
